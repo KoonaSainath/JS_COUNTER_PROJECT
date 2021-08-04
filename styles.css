@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #b4e1ff;
+}
+#heading-text {
+  font-size: 4rem;
+}
+#counter-text {
+  font-size: 6rem;
+}
+button {
+  padding: 2rem;
+  font-size: 1.5rem;
+  margin: 0.3em;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  transition: all 1s;
+}
+#btn-decrease {
+  background: #d00000;
+}
+#btn-reset {
+  background: #a8763e;
+}
+#btn-increase {
+  background: #47a025;
+}
+#btn-decrease:hover,
+#btn-increase:hover,
+#btn-reset:hover {
+  border: solid 5px red;
+  background: black;
+  color: red;
+}
